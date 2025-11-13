@@ -42,12 +42,12 @@ export default function Gallery() {
       {
         imageUrl: "https://dimensaosete.com.br/static/40ca036275c1f7777955d570dc73c82d/2493a/hunter-x-hunter.webp",
         name: "Hunter x Hunter",
-        description: "A jornada épica pelo Grand Line em busca do tesouro.",
+        description: "",
       },
       {
         imageUrl: "https://wallpapers.com/images/hd/attack-on-titan-pictures-uk5xzd7go5nb00sj.jpg",
         name: "Attack on Titan",
-        description: "A batalha da humanidade pela sobrevivência.",
+        description: "",
       },
       {
         imageUrl: "https://p2.trrsf.com/image/fget/cf/500/0/images.terra.com/2021/09/10/demon-slayer-capa.png",

@@ -62,11 +62,6 @@ export function Header() {
           >
           </span>
         )}
-        {showDots && (
-          <span className="text-4xl sm:text-5xl text-muted-foreground/60 ml-2 animate-pulse">
-            ⟳
-          </span>
-        )}
       </div>
 
       <p className="mt-4 text-muted-foreground text-base sm:text-lg max-w-2xl mx-auto relative z-10">
