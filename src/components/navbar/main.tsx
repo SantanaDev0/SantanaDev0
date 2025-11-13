@@ -58,8 +58,8 @@ export function NavMain() {
               className="relative flex items-center gap-2 text-md font-semibold text-primary whitespace-nowrap"
             >
               <img
-                src="/logo.svg"
-                className="w-8 h-8 object-contain fill-white"
+                src="/logo.png"
+                className="w-8 h-8 object-contain"
               />
               {!isMobile && (
                 <span className="ml-1 text-foreground font-medium select-none">

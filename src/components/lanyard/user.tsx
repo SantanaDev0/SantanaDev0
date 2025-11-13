@@ -22,7 +22,7 @@ const colors: Record<string, string> = {
 export function User() {
   const presence = useLanyard();
   // Usar imagem do Gojo ao invés do Discord
-  const avatar = "/gojo.png";
+  const avatar = "/gojo.jpg";
   const user: DiscordUser | undefined = presence?.discord_user;
 
   if (!presence) {
@@ -72,10 +72,10 @@ export function User() {
       </HoverCardTrigger>
 
       <HoverCardContent className="w-72 p-4 bg-transparent rounded-lg backdrop-blur-lg mt-2 mr-47">
-        <img src="/gojo.png" className="mb-2 rounded-lg border h-auto w-full bg-background object-cover" style={{ maxHeight: '150px' }} />
+        <img src="/gojo.jpg" className="mb-2 rounded-lg border h-auto w-full bg-background object-cover" style={{ maxHeight: '150px' }} />
         <div className="flex items-center gap-3">
           <Avatar className="h-14 w-14">
-            <AvatarImage src="/gojo.png" loading="lazy" />
+            <AvatarImage src="/gojo.jpg" loading="lazy" />
           </Avatar>
 
           <div className="flex flex-col">
