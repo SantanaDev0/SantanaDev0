@@ -35,12 +35,12 @@ export default function Gallery() {
     imageUrl ??
     [
       {
-        imageUrl: "",
+        imageUrl: "https://occ-0-8407-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABRYf6IvKVY0iGFpx9RgmC24X3PDSW-bsviX88kw399-dBksHtFrFWui4VvJQpoayiLzhr1MxP3EXSLA5e3o2uTyiZrmXngw_mT8P.jpg?r=2fe",
         name: "Shield Hero",
-        description: "https://images.justwatch.com/poster/241519432/s718/tate-no-yuusha-no-nariagari.jpg",
+        description: "",
       },
       {
-        imageUrl: "https://m.media-amazon.com/images/M/MV5BYzYxOTlkYzctNGY2MC00MjNjLWIxOWMtY2QwYjcxZWIwMmEwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        imageUrl: "https://dimensaosete.com.br/static/40ca036275c1f7777955d570dc73c82d/2493a/hunter-x-hunter.webp",
         name: "Hunter x Hunter",
         description: "A jornada épica pelo Grand Line em busca do tesouro.",
       },
