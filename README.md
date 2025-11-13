@@ -1,6 +1,6 @@
 # SantanaDev0
 
-Portfólio pessoal customizado com tema de anime animado.
+Portfólio pessoal 
 
 ## Tecnologias
 - React
@@ -9,17 +9,6 @@ Portfólio pessoal customizado com tema de anime animado.
 - TailwindCSS
 - Framer Motion
 - GSAP
-
-## Instalação
-
-```bash
-npm install
-npm run dev
-```
-
-## Deploy
-O projeto está configurado para deploy na Vercel.
-
 ---
 
 ## Credits
