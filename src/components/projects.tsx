@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/empty";
 
 export default function Projects() {
-  const { projects, loading } = useGitHubProjects("devularia");
+  const { projects, loading } = useGitHubProjects("SantanaDev0");
 
   return (
     <div>

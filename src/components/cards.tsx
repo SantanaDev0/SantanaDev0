@@ -1,21 +1,21 @@
-import { FaQuestion } from "react-icons/fa";
+import { FaCode, FaRocket, FaPalette } from "react-icons/fa";
 
 export function Cards() {
   const cards = [
     {
-      icon: <FaQuestion />,
-      title: "title",
-      description: "description",
+      icon: <FaCode />,
+      title: "Full Stack Developer",
+      description: "Desenvolvedor apaixonado por criar experiências web incríveis com React, TypeScript e Node.js.",
     },
     {
-      icon: <FaQuestion />,
-      title: "title",
-      description: "description",
+      icon: <FaRocket />,
+      title: "Projetos Inovadores",
+      description: "Sempre buscando aprender novas tecnologias e criar soluções criativas para problemas complexos.",
     },
     {
-      icon: <FaQuestion />,
-      title: "title",
-      description: "description",
+      icon: <FaPalette />,
+      title: "Design & Anime",
+      description: "Combinando paixão por anime com desenvolvimento web para criar interfaces únicas e inspiradas.",
     },
   ];
 

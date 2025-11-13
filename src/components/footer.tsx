@@ -22,7 +22,7 @@ export default function Footer() {
           </div>
 
           <p className="text-sm text-foreground/80 select-none">
-            © {new Date().getFullYear()} Santana.Dev - this website is <a className='hover:underline font-bold' href="https://github.com/SantanaDev0/SantanaDev.main">opensource</a>
+            © {new Date().getFullYear()} SantanaDev0 - this website is <a className='hover:underline font-bold' href="https://github.com/SantanaDev0/SantanaDev0">opensource</a>
           </p>
 
           <div className="flex items-center gap-4 text-foreground/80">

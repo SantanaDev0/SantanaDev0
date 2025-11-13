@@ -63,7 +63,7 @@ export function NavMain() {
               />
               {!isMobile && (
                 <span className="ml-1 text-foreground font-medium select-none">
-                  devularia.dev
+                  SantanaDev0
                 </span>
               )}
 

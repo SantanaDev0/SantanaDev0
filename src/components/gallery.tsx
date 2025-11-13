@@ -15,7 +15,20 @@ type ImageItem = {
   description: string;
 };
 
+// INSTRUÇÕES: Para adicionar suas próprias imagens de anime:
+// 1. Coloque as imagens na pasta: public/gallery/
+// 2. Descomente o array abaixo e adicione suas imagens
+// 3. Exemplo: { imageUrl: "/gallery/naruto.jpg", name: "Naruto", description: "Descrição" }
+
 const imageUrl: ImageItem[] | undefined = undefined;
+// const imageUrl: ImageItem[] = [
+//   {
+//     imageUrl: "/gallery/seu-anime-1.jpg",
+//     name: "Nome do Anime",
+//     description: "Descrição do anime ou personagem",
+//   },
+//   // Adicione mais imagens aqui...
+// ];
 
 export default function Gallery() {
   const images =

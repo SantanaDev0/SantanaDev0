@@ -5,13 +5,22 @@ interface BackgroundProps {
 }
 
 export function Background({ imageUrl }: BackgroundProps) {
-  // Cria partículas de anime flutuantes
-  const particles = Array.from({ length: 20 }, (_, i) => ({
+  // Cria partículas de anime flutuantes com mais variação
+  const particles = Array.from({ length: 30 }, (_, i) => ({
     id: i,
     left: `${Math.random() * 100}%`,
     delay: Math.random() * 5,
     duration: 10 + Math.random() * 20,
-    size: 2 + Math.random() * 4,
+    size: 2 + Math.random() * 6,
+    opacity: 0.3 + Math.random() * 0.7,
+  }))
+
+  // Estrelas brilhantes estilo anime
+  const stars = Array.from({ length: 15 }, (_, i) => ({
+    id: i,
+    left: `${Math.random() * 100}%`,
+    top: `${Math.random() * 100}%`,
+    delay: Math.random() * 3,
   }))
 
   return (
@@ -47,7 +56,7 @@ export function Background({ imageUrl }: BackgroundProps) {
       {particles.map((particle) => (
         <motion.div
           key={particle.id}
-          className="absolute rounded-full bg-gradient-to-r from-pink-400 to-purple-400 opacity-60 blur-sm"
+          className="absolute rounded-full bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 blur-sm"
           style={{
             left: particle.left,
             width: `${particle.size}px`,
@@ -56,7 +65,8 @@ export function Background({ imageUrl }: BackgroundProps) {
           animate={{
             y: ['100vh', '-10vh'],
             x: [0, Math.random() * 100 - 50],
-            opacity: [0, 0.8, 0],
+            opacity: [0, particle.opacity, 0],
+            scale: [0.5, 1, 0.5],
           }}
           transition={{
             duration: particle.duration,
@@ -65,6 +75,36 @@ export function Background({ imageUrl }: BackgroundProps) {
             ease: 'linear',
           }}
         />
+      ))}
+
+      {/* Estrelas brilhantes estilo anime */}
+      {stars.map((star) => (
+        <motion.div
+          key={`star-${star.id}`}
+          className="absolute"
+          style={{
+            left: star.left,
+            top: star.top,
+          }}
+          animate={{
+            opacity: [0, 1, 0],
+            scale: [0, 1.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            delay: star.delay,
+            repeat: Infinity,
+            repeatDelay: 3,
+          }}
+        >
+          <div className="relative">
+            {/* Brilho central */}
+            <div className="w-2 h-2 bg-white rounded-full blur-sm" />
+            {/* Raios de luz */}
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-0.5 bg-gradient-to-r from-transparent via-white to-transparent rotate-0" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-0.5 bg-gradient-to-r from-transparent via-white to-transparent rotate-90" />
+          </div>
+        </motion.div>
       ))}
 
       {/* Gradiente para transição suave */}

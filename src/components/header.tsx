@@ -33,7 +33,7 @@ export function Header() {
       </h1>
 
       <p className="mt-4 text-muted-foreground text-base sm:text-lg max-w-2xl mx-auto relative z-10">
-        description
+        Desenvolvedor Full Stack apaixonado por criar experiências web únicas, com um toque especial de anime
       </p>
     </header>
   )
