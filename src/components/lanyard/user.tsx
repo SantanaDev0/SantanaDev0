@@ -21,7 +21,8 @@ const colors: Record<string, string> = {
 
 export function User() {
   const presence = useLanyard();
-  const avatar = getAvatar(presence);
+  // Usar imagem do Gojo ao invés do Discord
+  const avatar = "/gojo.png";
   const user: DiscordUser | undefined = presence?.discord_user;
 
   if (!presence) {
@@ -71,46 +72,31 @@ export function User() {
       </HoverCardTrigger>
 
       <HoverCardContent className="w-72 p-4 bg-transparent rounded-lg backdrop-blur-lg mt-2 mr-47">
-        <img src="https://dcdn.dstn.to/banners/910877275203989505" className="mb-2 rounded-lg border h-auto w-full bg-background" />
+        <img src="/gojo.png" className="mb-2 rounded-lg border h-auto w-full bg-background object-cover" style={{ maxHeight: '150px' }} />
         <div className="flex items-center gap-3">
           <Avatar className="h-14 w-14">
-            {avatar ? (
-              <AvatarImage src={avatar} loading="lazy" />
-            ) : (
-              <AvatarFallback className="bg-foreground/10" />
-            )}
+            <AvatarImage src="/gojo.png" loading="lazy" />
           </Avatar>
 
           <div className="flex flex-col">
             <div className="flex items-center flex-wrap gap-2">
               <p className="font-semibold text-foreground break-words max-w-full">
-                {user?.display_name || user?.global_name || user?.username}
+                SantanaDev0
               </p>
 
               <div className="flex items-center gap-1">
-                {user?.primary_guild && (
-                  <Badge
-                    variant="outline"
-                    className="flex items-center gap-1 font-medium break-words max-w-full"
-                  >
-                    {user.primary_guild.badge && (
-                      <img
-                        src={`https://cdn.discordapp.com/clan-badges/${user.primary_guild.identity_guild_id}/${user.primary_guild.badge}.png?size=16`}
-                        className="w-4 h-4 rounded-sm"
-                        loading="lazy"
-                      />
-                    )}
-                    {user.primary_guild.tag}
-                  </Badge>
-                )}
+                <Badge
+                  variant="outline"
+                  className="flex items-center gap-1 font-medium break-words max-w-full"
+                >
+                  ⚡ Gojo
+                </Badge>
               </div>
             </div>
 
-            {user?.global_name && user?.global_name !== user?.username && (
-              <p className="text-sm text-muted-foreground break-words max-w-full">
-                @{user.username}
-              </p>
-            )}
+            <p className="text-sm text-muted-foreground break-words max-w-full">
+              Full Stack Developer
+            </p>
           </div>
         </div>
       </HoverCardContent>
