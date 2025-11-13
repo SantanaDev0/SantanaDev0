@@ -1,6 +1,8 @@
 import type { LanyardPresence } from "@/types/lanyard";
 
-const DISCORD_ID = "910877275203989505" as const;
+// SEU Discord ID - Para pegar: Discord > Configurações > Avançado > Modo Desenvolvedor > Copiar ID
+// IMPORTANTE: Adicione o bot Lanyard no seu Discord: https://api.lanyard.rest/invite
+const DISCORD_ID = "1421185669086183527" as const;
 
 export const Op = {
   Event: 0,
