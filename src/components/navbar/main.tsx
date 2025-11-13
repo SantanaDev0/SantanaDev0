@@ -58,7 +58,7 @@ export function NavMain() {
               className="relative flex items-center gap-2 text-md font-semibold text-primary whitespace-nowrap"
             >
               <img
-                src="/logo.png"
+                src="/logo.svg"
                 className="w-8 h-8 object-contain"
               />
               {!isMobile && (
