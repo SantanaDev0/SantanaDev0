@@ -1,6 +1,6 @@
 # SantanaDev0
 
 
-# Credits 
+# Credits to devularia.dev 
 
-# devularia.dev
+
