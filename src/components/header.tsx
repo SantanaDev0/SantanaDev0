@@ -12,7 +12,7 @@ export function Header() {
     const tl = gsap.timeline({ repeat: -1, repeatDelay: 1.5 })
     tl.to(h1Ref.current, {
       duration: 2,
-      text: 'Santana.Dev',
+      text: 'SantanaDev0',
       ease: 'none',
     })
     tl.to(h1Ref.current, {

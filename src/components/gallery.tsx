@@ -22,9 +22,34 @@ export default function Gallery() {
     imageUrl ??
     [
       {
-        imageUrl: "https://cataas.com/cat",
-        name: "Random Cat",
-        description: "Each time you refresh this page, it randomizes the cat.",
+        imageUrl: "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&q=80",
+        name: "Naruto",
+        description: "Um dos animes mais icônicos de todos os tempos.",
+      },
+      {
+        imageUrl: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=800&q=80",
+        name: "One Piece",
+        description: "A jornada épica pelo Grand Line em busca do tesouro.",
+      },
+      {
+        imageUrl: "https://images.unsplash.com/photo-1613376023733-0a73315d9b06?w=800&q=80",
+        name: "Attack on Titan",
+        description: "A batalha da humanidade pela sobrevivência.",
+      },
+      {
+        imageUrl: "https://images.unsplash.com/photo-1580477667995-2b94f01c9516?w=800&q=80",
+        name: "Demon Slayer",
+        description: "A luta contra os demônios em um Japão feudal.",
+      },
+      {
+        imageUrl: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=800&q=80",
+        name: "My Hero Academia",
+        description: "Heróis em treinamento na UA High School.",
+      },
+      {
+        imageUrl: "https://images.unsplash.com/photo-1578632292335-df3abbb0d586?w=800&q=80",
+        name: "Death Note",
+        description: "O caderno que pode matar qualquer pessoa.",
       }
     ];
 
