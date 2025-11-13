@@ -57,12 +57,8 @@ export function NavMain() {
               to="/"
               className="relative flex items-center gap-2 text-md font-semibold text-primary whitespace-nowrap"
             >
-              <img
-                src="/logo.svg"
-                className="w-8 h-8 object-contain"
-              />
               {!isMobile && (
-                <span className="ml-1 text-foreground font-medium select-none">
+                <span className="text-foreground font-medium select-none">
                   SantanaDev0
                 </span>
               )}
