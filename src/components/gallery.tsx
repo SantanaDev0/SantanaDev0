@@ -35,34 +35,34 @@ export default function Gallery() {
     imageUrl ??
     [
       {
-        imageUrl: "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&q=80",
-        name: "Naruto",
-        description: "Um dos animes mais icônicos de todos os tempos.",
+        imageUrl: "",
+        name: "Shield Hero",
+        description: "https://images.justwatch.com/poster/241519432/s718/tate-no-yuusha-no-nariagari.jpg",
       },
       {
-        imageUrl: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=800&q=80",
-        name: "One Piece",
+        imageUrl: "https://m.media-amazon.com/images/M/MV5BYzYxOTlkYzctNGY2MC00MjNjLWIxOWMtY2QwYjcxZWIwMmEwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        name: "Hunter x Hunter",
         description: "A jornada épica pelo Grand Line em busca do tesouro.",
       },
       {
-        imageUrl: "https://images.unsplash.com/photo-1613376023733-0a73315d9b06?w=800&q=80",
+        imageUrl: "https://wallpapers.com/images/hd/attack-on-titan-pictures-uk5xzd7go5nb00sj.jpg",
         name: "Attack on Titan",
         description: "A batalha da humanidade pela sobrevivência.",
       },
       {
-        imageUrl: "https://images.unsplash.com/photo-1580477667995-2b94f01c9516?w=800&q=80",
+        imageUrl: "https://p2.trrsf.com/image/fget/cf/500/0/images.terra.com/2021/09/10/demon-slayer-capa.png",
         name: "Demon Slayer",
-        description: "A luta contra os demônios em um Japão feudal.",
+        description: "",
       },
       {
-        imageUrl: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=800&q=80",
-        name: "My Hero Academia",
-        description: "Heróis em treinamento na UA High School.",
+        imageUrl: "https://preview.redd.it/who-is-your-personal-favorite-black-clover-character-v0-a74bro3ymj1d1.jpeg?width=640&crop=smart&auto=webp&s=4b54903090aabadb26ecb4e2ba8271d3b4ad43d9",
+        name: "Black Clover",
+        description: "",
       },
       {
-        imageUrl: "https://images.unsplash.com/photo-1578632292335-df3abbb0d586?w=800&q=80",
+        imageUrl: "https://s2-techtudo.glbimg.com/1Q76caEdN3BriFZ_l61VD5MJkYs=/0x0:1280x720/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/g/0/s4BJiLQGSb9USN3vTvAg/death-note-netflix.jpg",
         name: "Death Note",
-        description: "O caderno que pode matar qualquer pessoa.",
+        description: "",
       }
     ];
 
