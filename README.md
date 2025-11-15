@@ -12,4 +12,4 @@ Portfólio pessoal
 ---
 
 ## Credits
-Template original por [devularia.dev](https://devularia.dev)
+ [devularia.dev](https://devularia.dev)
