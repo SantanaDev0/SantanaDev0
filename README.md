@@ -16,7 +16,7 @@
 </div>
 
 <div align="center" width="100%">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=7AA2F7&center=true&vCenter=true&width=900&lines=Transforming+ideas+into+code;Specialized+in+PHP%2C+Node.js+and+React;Building+robust+and+scalable+systems;Always+learning%2C+always+evolving;SantanaDev..." alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=7AA2F7&center=true&vCenter=true&width=900&lines=Linguagens+que+sei+programar;Languages+I+can+code+in;プログラミング言語 alt="Typing SVG"/>
 </div>
 
 <br>
