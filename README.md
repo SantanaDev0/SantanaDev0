@@ -45,7 +45,7 @@
 <br>
 
 <div align="center" width="100%">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=BB9AF7&center=true&vCenter=true&width=600&lines=Tech+Stack;Linguagens+de+programa%C3%A7%C3%A3o+que+uso+;Languages+I+can+code+in" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=BB9AF7&center=true&vCenter=true&width=600&lines=Tech+Stack;Linguagens+que+sei+programar+;Languages+I+can+code+in" alt="Typing SVG"/>
 </div>
 
 <br>
