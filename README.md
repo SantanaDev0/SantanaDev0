@@ -29,8 +29,10 @@
 <br>
       
 <div align="center">
-  <img height="195" align="center" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api/?username=SantanaDev0&show_icons=true&count_private=true&rank_icon=github&theme=tokyonight&font=Fira+Code&hide_border=true"/>
-  <img height="195" align="center" alt="Top Language" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SantanaDev0&layout=compact&font=Fira+Code&langs_count=8&theme=tokyonight&hide_border=true"/>
+  <img height="180" align="center" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api/?username=SantanaDev0&show_icons=true&count_private=true&rank_icon=github&theme=tokyonight&font=Fira+Code&hide_border=true"/>
+  <br>
+  <br>
+  <img height="180" align="center" alt="Top Language" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SantanaDev0&layout=compact&font=Fira+Code&langs_count=8&theme=tokyonight&hide_border=true"/>
   <br>
   <br>
   <img align="center" height="200" src="https://i.imgur.com/GB6lyMK.gif" alt="Gojo Fighting"/>
@@ -38,8 +40,8 @@
 
 <br>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=BB9AF7&center=true&vCenter=true&width=600&lines=Linguagens+que+sei+programar;Languages+I+can+code+in;プログラミング言語" alt="Languages Typing"/>
+<div align="center" width="100%">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=BB9AF7&center=true&vCenter=true&width=600&lines=Linguagens+que+sei+programar;Languages+I+can+code+in;プログラミング言語" alt="Typing SVG"/>
 </div>
 
 <br>
@@ -123,3 +125,7 @@
 <br>
 <br>
 <br>
+
+
+
+
