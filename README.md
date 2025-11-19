@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=130&color=BB9AF7&section=header" width="100%"/>
+</div>
+
 <br>
 <br>
 <br>
@@ -41,7 +45,7 @@
 <br>
 
 <div align="center" width="100%">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=BB9AF7&center=true&vCenter=true&width=600&lines=Tech+Stack;Linguagens+de+programa%C3%A7%C3%A3o+que+uso;Languages+I+can+code+in" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=BB9AF7&center=true&vCenter=true&width=600&lines=Tech+Stack;Linguagens+de+programa%C3%A7%C3%A3o;Languages+I+can+code+in" alt="Typing SVG"/>
 </div>
 
 <br>
@@ -99,11 +103,11 @@
 <div align="center">
   <p align="center">
       <samp>
-        ♡ <a href="SEU_LINK_INSTAGRAM">Instagram</a> ⊹
+         <a href="SEU_LINK_INSTAGRAM">Instagram</a> ⊹
         <a href="SEU_LINK_RENTRY">Rentry</a> ⊹
         <a href="SEU_LINK_LINKTR">Linktr.ee</a> ⊹
         <a href="SEU_LINK_CARRD">Carrd</a> ⊹
-        <a href="SEU_LINK_NOTION">Notion</a> ♡
+        <a href="SEU_LINK_NOTION">Notion</a> 
       </samp>
   </p>
 </div>
@@ -125,3 +129,7 @@
 <br>
 <br>
 <br>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=130&color=BB9AF7&section=footer" width="100%"/>
+</div>
